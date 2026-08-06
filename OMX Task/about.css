@@ -1,0 +1,270 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.img{
+    background-color: black;
+}
+img {
+    width: 8%;
+    height:auto;
+    
+}
+.aboutBanner{
+    
+    height:60vh;
+    background-color: black;
+    /*background-image:
+    linear-gradient(rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url("images/about-banner.jpg");
+    */
+    background-size:cover;
+    background-position:center;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.aboutOverlay{
+    
+    text-align:center;
+    color:white;
+    width:70%;
+}
+
+.aboutOverlay h1{
+
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.aboutOverlay p{
+
+    font-size:22px;
+    line-height:1.7;
+}
+.aboutCompany{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:70px;
+
+    gap:70px;
+}
+
+.aboutText{
+
+    width:55%;
+}
+
+.aboutText h2{
+
+    color:#8b2b68;
+    font-size:25px;
+}
+
+.aboutText h3{
+
+    font-size:42px;
+    margin:20px 0;
+}
+
+.aboutText p{
+
+    line-height:1.8;
+    color:#555;
+    text-align:justify;
+}
+
+.aboutImage{
+
+    width:45%;
+}
+
+.aboutImage img{
+
+    width:100%;
+    border-radius:15px;
+}
+.services{
+
+    padding:70px;
+
+    text-align:center;
+
+    background:#f8f8f8;
+}
+
+.services h2{
+
+    font-size:42px;
+    color:#8b2b68;
+
+    margin-bottom:50px;
+}
+
+.serviceContainer{
+
+    display:flex;
+    justify-content:space-evenly;
+
+    gap:25px;
+}
+
+.serviceBox{
+
+    background:white;
+
+    width:23%;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.serviceBox:hover{
+
+    transform:translateY(-8px);
+}
+
+.serviceBox img{
+    width:80px;
+    margin-bottom:25px;
+}
+
+.serviceBox h3{
+    color:#333;
+}
+.team{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:70px;
+
+    gap:70px;
+}
+
+.teamImage{
+
+    width:45%;
+}
+
+.teamImage img{
+
+    width:100%;
+
+    border-radius:15px;
+}
+
+.teamText{
+
+    width:55%;
+}
+
+.teamText h2{
+
+    color:#8b2b68;
+}
+
+.teamText h3{
+
+    font-size:40px;
+
+    margin:20px 0;
+}
+
+.teamText p{
+
+    line-height:1.8;
+
+    color:#555;
+
+    text-align:justify;
+}
+.copyright {
+
+    margin:60px 7px 20px 7px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright span{
+    color: black;
+    
+}
+/* Responsive Design */
+
+@media (max-width: 768px){
+
+    /* About Banner */
+    .aboutOverlay h1{
+        font-size:40px;
+    }
+
+    .aboutOverlay p{
+        width:90%;
+        font-size:18px;
+        margin:auto;
+    }
+
+    /* About Company */
+
+    .aboutCompany{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .aboutText,
+    .aboutImage{
+        width:100%;
+    }
+
+    .aboutText p{
+        text-align:center;
+    }
+
+    /* Services */
+
+    .serviceContainer{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .serviceBox{
+        width:90%;
+        margin-bottom:20px;
+    }
+
+    /* Team */
+
+    .team{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .teamImage,
+    .teamText{
+        width:100%;
+    }
+
+    .teamText p{
+        text-align:center;
+    }
+
+}
