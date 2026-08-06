@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;   /* or any color matching your image */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ccc;
+}
+nav{
+    width: 85%;
+    height: 40px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    display: flex;
+}
+nav a{
+    
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+img{
+    width: 10%;
+    height:auto;
+}
+
+p{
+    font-size: 20px;
+
+    margin: 20px;
+}
+span{
+    color:rgb(150, 40, 144)
+}
+section{
+ text-align: center;
+}
+.Mid{
+    background-image:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: calc(100vh - 12px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;   /* Text starts from the top */
+    padding-top: 40px;             /* Adjust this value as needed */
+
+    text-align: center;
+    color: white;
+}
+.Mid h2{
+    font-size: 35px;
+    margin-bottom: 1px;
+    text-shadow: 2px 2px 8px black;
+}
+.Mid p{
+    width: 65%;
+    font-size: 22px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 8px black;
+}
