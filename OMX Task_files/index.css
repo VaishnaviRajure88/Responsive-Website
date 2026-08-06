@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin:0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+nav{
+    height: 40px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-radius: 15px;
+    float:right;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo img{
+    width: 100px;
+    height:auto
+}
